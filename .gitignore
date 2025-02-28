@@ -1,0 +1,18 @@
+.idea/
+
+# 로컬 .terraform 디렉터리 제외
+.terraform/
+
+# .tfstate 파일 제외
+*.tfstate
+*.tfstate.*
+
+# 로그 파일 제외
+crash.log
+
+# 민감한 변수 파일 제외
+*.tfvars
+
+# CLI 설정 파일 제외
+.terraformrc
+terraform.rc
